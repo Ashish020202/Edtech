@@ -37,6 +37,8 @@ export interface User {
 const UpdateUserProfile: React.FC = () => {
     const { id } = useParams<{ id: string }>();
     const [user, setUser] = useState<User | null>(null);
+    console.log(user);
+    
     const [email, setEmail] = useState('');
     const [role, setRole] = useState<Role>('student');
     const [profile, setProfile] = useState<any>({});

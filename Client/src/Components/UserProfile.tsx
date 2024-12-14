@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { User, Save, Trash2 } from 'lucide-react';
+import React, { useState} from 'react';
+import { Save, Trash2 } from 'lucide-react';
 
 // TypeScript interfaces for type safety
 interface TeacherProfile {
@@ -48,12 +48,12 @@ const UserProfileComponent: React.FC<UserProfileProps> = ({
         }));
     };
 
-    const handleArrayChange = (field: string, values: string[]) => {
-        setProfile(prev => ({
-            ...prev,
-            [field]: values
-        }));
-    };
+    // const handleArrayChange = (field: string, values: string[]) => {
+    //     setProfile(prev => ({
+    //         ...prev,
+    //         [field]: values
+    //     }));
+    // };
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
