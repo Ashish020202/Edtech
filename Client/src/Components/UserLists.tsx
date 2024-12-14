@@ -188,13 +188,13 @@ const UserList: React.FC = () => {
                                 <div className="flex justify-between mt-4">
                                     <button 
                                         onClick={()=>navigate(`/updateuser/${user._id}`)}
-                                        className="text-green-600 hover:underline text-sm"
+                                        className="bg-gray-800 text-green-600 px-1 py-1 rounded-md text-lg font-bold hover:bg-blue-50 transition-all duration-300 shadow-2xl hover:shadow-xl"
                                     >
                                         Update User
                                     </button>
                                     <button onClick={() => handleDeleteUser(user._id!)}
 
-                                        className="text-red-600 hover:underline text-sm"
+                                       className="bg-gray-800 text-red-600 px-1 py-1 rounded-md text-lg font-bold hover:bg-blue-50 transition-all duration-300 shadow-2xl hover:shadow-xl"
                                     >
                                         Delete User
                                     </button>
