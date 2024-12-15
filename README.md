@@ -22,7 +22,7 @@ PROJECT SETUP
 
 Clone the Repository:
 
-git clone https://github.com/your-username/auth-api.git -> cd Client and cd server
+git clone https://github.com/Ashish020202/Edtech.git -> cd Client and cd server
 
 Install Dependencies: Run the following command to install the required packages:
 npm install
